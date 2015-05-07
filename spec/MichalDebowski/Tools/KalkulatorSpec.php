@@ -21,6 +21,6 @@ class KalkulatorSpec extends ObjectBehavior
     
     function prosto()
     {
-    $this->setA(4)->setB(5)->setH(3)->obj()->shouldReturn(60);
+    $this->setA(4)->setB(5)->setH(3)->prosto()->shouldReturn(60);
     }
 }

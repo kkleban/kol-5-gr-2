@@ -45,7 +45,7 @@ class Kalkulator
         return $this->h;
     }
     
-    public function obj()
+    public function prosto()
     {
     return $this->a * $this->b * $this->h;
     }

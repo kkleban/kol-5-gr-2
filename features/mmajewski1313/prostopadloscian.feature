@@ -1,8 +1,8 @@
 Feature: Obliczenia
 
-  Scenario: Kalkulator a * b *h
+  Scenario: Kalkulator prostopadloscian
     Given I am on homepage
-    When I follow "Kalkulator by gajdaw"
+    When I follow "Kalkulator by mmajewski1313"
     And I fill in "a" with "2"
     And I fill in "b" with "3"
     And I fill in "h" with "4"

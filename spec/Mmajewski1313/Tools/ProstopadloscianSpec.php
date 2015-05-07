@@ -18,5 +18,10 @@ class ProstopadloscianSpec extends ObjectBehavior
         $this->setH(567)->getH()->shouldReturn(567);
 
 }
+
+function pole()
+    {
+        $this->setA(2)->setB(3)->setH(4)->objetoscprost()->shouldReturn(24);
+    }
 }
 

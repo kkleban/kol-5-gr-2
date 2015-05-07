@@ -18,5 +18,10 @@ class KalkulatorSpec extends ObjectBehavior
         $this->setB(987)->getB()->shouldReturn(987);
         $this->setH(432)->getH()->shouldReturn(432);
     }
+    
+    function it_should_calculate_field()
+    {
+        $this->setA(2)->setB(3)->setH(2)->field()->shouldReturn(12);
+    }
 
 }

@@ -43,12 +43,7 @@ class Kalkulator
     {
         return $this->h;
     }
-    
-    function it_should_calculate_field()
-    {
-        $this->setA(2)->setB(3)->setH(2)->field()->shouldReturn(12);
-    }
-    
+
     public function field()
     {
         return $this->a * $this->b * $this->h;
